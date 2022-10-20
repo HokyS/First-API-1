@@ -13,8 +13,10 @@ public class NameController {
     public String getName(){
         return "Mario";
     }
+
     @PostMapping(value = "")
     public String postName(){
         return "oiraM";
     }
+
 }
